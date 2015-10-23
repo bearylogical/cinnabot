@@ -73,7 +73,7 @@ bot.on('message', function(msg) {
         case "cancel":
             return cancel(chatId);
         default:
-            return default_msg(chatID);
+            return default_msg(chatId);
     }
 
     // manage markups
