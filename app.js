@@ -72,6 +72,8 @@ bot.on('message', function(msg) {
             return catfact(chatId);*/
         case "cancel":
             return cancel(chatId);
+        default:
+            return default_msg(chatID)''
     }
 
     // manage markups
@@ -186,5 +188,5 @@ function meow(chatId) {
 // }
 
 function default_msg(chatId) {
-    bot.sendMessage(chatId, "Unknown Command.");
+    bot.sendMessage(chatId, "Meow?");
 }
