@@ -1,4 +1,4 @@
-# cinnabot  [![Build Status](https://travis-ci.org/varunpatro/cinnabot.svg)](https://travis-ci.org/varunpatro/cinnabot/)
+# cinnabot  [![Build Status](https://travis-ci.org/bearylogical/cinnabot.svg?branch=master)](https://travis-ci.org/bearylogical/cinnabot)
 Telegram Bot for Cinnamon College
 
 ## Set Up
